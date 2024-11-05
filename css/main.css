@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, Helvetica, Arial, sans-seri
+}
+p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    color: #077f53;
+}
+.navbar{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #077f53;
+    height: 50px;
+}
+
+.navbar li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+.titulo-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    text-transform:capitalize;
+    padding: 30px 0px 100px 0px;
+    font-size: 45px;
+    font-weight: 800;
+    color: #077f53;
+}
+
+.subtitulo{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+    color: #077f53;
+}
+
+.valores-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    padding-left: 10px;
+}
+
+.valor-compra{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+#monto{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #a9a9a952;
+}
+.confirmacion{
+    padding-bottom: 50px;
+}
+button{
+    margin-top: 20px;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: #a9a9a952;
+    background-color: #ffffff;
+}
+.tarjetas-contenedor{
+    padding-bottom: 50px;
+}
+#dropdown-tarjetas{
+    text-transform: uppercase;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #a9a9a995;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.cantidad-cuotas{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#dropdown{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #a9a9a995;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
