@@ -7,7 +7,7 @@
     <!--css-->
     <link rel="stylesheet" href="./css/main.css">
     <!--JavaScript-->
-    <script defer src="./js/main.js"></script>
+    <script defer type="module" src="./js/main.js" ></script>
     <title>
         Calculador de cuotas - Proyecto
     </title>
@@ -29,40 +29,33 @@
             <h2 class="titulo">calculador de cuotas</h2>
             <h3 class="subtitulo">ingrese los siguientes valores:</h3>
         </div>
-        <div class="valores-contenedor">
-            <div class="valor-compra">
-                <p>valor de la compra</p>
-                <div class="monto-contenedor">
-                    <input type="search" name="search" id="monto">
+        <div class="contenedor">
+            <div class="valores-contenedor">
+                <div class="valor-compra">
+                    <p>valor de la compra</p>
+                    <div class="monto-contenedor">
+                        <input inputmode="numeric" type="text" id="monto">
+                    </div>
                 </div>
-            </div>
-            <div class="confirmacion">
-                <p>su tarjeta pertenece a un banco?</p>
-                <button id="confirm">Sí</button>
-                <button id="notConfirm">No</button>
-            </div>
-            <div class="tarjetas-contenedor">
-                <p>ingrese la tarjeta</p>
-                <div class="tarjetas">
-                    <form>
-                        <select id="dropdown-tarjetas">
-                        </select>
-                    </form>
+                <div class="confirmacion">
+                    <p>su tarjeta pertenece a un banco?</p>
+                    <button id="confirm">Sí</button>
+                    <button id="notConfirm">No</button>
                 </div>
-            </div>
-            <div class="cantidad-cuotas">
-                <p>cantidad de cuotas</p>
-                <form>
-                    <select id="dropdown">
-                        <option id="opcion1">1 coutas</option>
-                        <option id="opcion2">3 cuotas</option>
-                        <option id="opcion3">6 cuotas</option>
-                        <option id="opcion4">12 cuotas</option>
-                    </select>
-                </form>
+                <div class="tarjetas-contenedor">
+                    <p>ingrese la tarjeta</p>
+                    <div class="tarjetas">
+                        <form>
+                            <select id="dropdown-tarjetas">
+                            </select>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="mostrar-resultado">
-                <div id="resultados-contenedor"></div>
+                <div id="resultados-contenedor">
+                    <div id="card"></div>
+                </div>
             </div>
         </div>
     </main>

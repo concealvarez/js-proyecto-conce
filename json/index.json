@@ -1,0 +1,64 @@
+{
+    "bancos": [
+      "banco de cordoba mastercard",
+      "visa banco hipotecario",
+      "visa banco bbva",
+      "visa banco macro",
+      "mastercard banco hipotecario",
+      "mastercard banco bbva",
+      "mastercar banco macro"
+    ],
+
+    "financieras": [
+      "cencosud",
+      "naranja",
+      "montemar shopping"
+    ],
+
+    "cuotasBancarizadas": [
+      {
+        "id": "Un pago",
+        "cuotas": 1,
+        "porcentaje": 0
+      },
+      {
+        "id": "tres pagos",
+        "cuotas": 3,
+        "porcentaje": 0.05
+      },
+      {
+        "id": "seis pagos",
+        "cuotas": 6,
+        "porcentaje": 0.15
+      },
+      {
+        "id": "doce pagos",
+        "cuotas": 12,
+        "porcentaje": 0.2
+      }
+    ],
+    
+    "cuotasSinBancarizar": [
+      {
+        "id": "Un pago",
+        "cuotas": 1,
+        "porcentaje": 0.1
+      },
+      {
+        "id": "tres pagos",
+        "cuotas": 3,
+        "porcentaje": 0.2
+      },
+      {
+        "id": "seis pagos",
+        "cuotas": 6,
+        "porcentaje": 0.3
+      },
+      {
+        "id": "doce pagos",
+        "cuotas": 12,
+        "porcentaje": 0.4
+      }
+    ]
+  }
+  

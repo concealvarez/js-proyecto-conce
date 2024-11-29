@@ -48,7 +48,22 @@ p {
     color: #077f53;
 }
 
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#card {
+    padding: 20px 0px 20px 0px;
+    margin: 100px 0px 100px 0px;
+    width: 350px;
+    height: 500px;
+    background-color: #7ed67eba;
+    border-radius: 10px;
+
+}
 .valores-contenedor{
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items:normal;
@@ -108,6 +123,6 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
